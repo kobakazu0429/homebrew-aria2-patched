@@ -60,7 +60,7 @@ class Aria2 < Formula
 
   # The lines below this have been modified by kobakazu0429.
   patch do
-    url "https://raw.githubusercontent.com/kobakazu0429/homebrew-aria2-patched/master/max-connection-to-unlimited.patch",
+    url "https://raw.githubusercontent.com/kobakazu0429/homebrew-aria2-patched/master/max-connection-to-unlimited.patch"
     sha256 "94f93287b9fdbc659433d976ee76657f7e0173fb0cfb6921b47fa426d3598af4"
   end
 end
