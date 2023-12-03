@@ -16,3 +16,7 @@ patched aria2 for homebrew
 ```bash
 $ brew install --build-from-source kobakazu0429/aria2-patched/aria2-patched
 ```
+
+## ToDo
+
+- [ ] bottle
