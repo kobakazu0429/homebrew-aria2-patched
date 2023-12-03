@@ -27,10 +27,5 @@ $(sed -e '1d;$d' $FORMULA_FILENAME)
     url "https://raw.githubusercontent.com/kobakazu0429/homebrew-aria2-patched/master/$PATCH_FILENAME"
     sha256 "$(sha256sum $PATCH_FILENAME | cut -f 1  -d ' ')"
   end
-
-  pour_bottle? do
-    reason "patched"
-    false
-  end
 end
 EOF
