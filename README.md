@@ -10,3 +10,9 @@ patched aria2 for homebrew
 
 - aria2-patched.rb is licensed mainly under the [BSD-2-Clause license](https://github.com/Homebrew/homebrew-core/blob/master/LICENSE.txt).
 - Others are licensed under the [MIT license](./LICENSE).
+
+## Usage
+
+```bash
+$ brew install --build-from-source kobakazu0429/aria2-patched/aria2-patched
+```
